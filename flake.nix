@@ -1,7 +1,7 @@
 # https://wiki.nixos.org/wiki/Go
 
 {
-  description = "foxthought: cowsay but it's a fox and his thoughts";
+  description = "Homemade cowsay but it's a fox and his thoughts";
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
   outputs =
@@ -34,7 +34,7 @@
             vendorHash = null;
 
             meta = {
-              description = "foxthought: cowsay but it's a fox and his thoughts";
+              description = "Homemade cowsay but it's a fox and his thoughts";
               homepage = "https://github.com/mushketeery/foxthought";
               license = pkgs.lib.licenses.gpl3Only;
               mainProgram = "foxthought";
